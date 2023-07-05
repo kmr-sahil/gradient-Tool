@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .outline-primary {
+      @apply outline outline-offset-2 outline-[2px] outline-[#1E3163];
+    }
+    
+  }

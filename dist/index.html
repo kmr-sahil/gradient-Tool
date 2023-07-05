@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3a51dbefd2.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-gradient-to-r from-[#fde8f4] from-0% bg-[#F8F8F8] via-55% to-[#d6dcf5] to-100% overflow-x-hidden bg-fixed" > <!-- bg-gradient-to-r from-[#fde8f4] from-0% bg-[#F8F8F8] via-55% to-[#d6dcf5] to-100% -->
+    <div class=" w-[78.75rem] mx-auto flex flex-col justify-center align-middle font-heebo font-light text-[#1E3163] max-[767px]:w-[38.87rem]">
+        <!-- Navbar Starts -->
+        <div class="mt-[1rem] mb-[5rem] mx-[6.25rem] px-[2.688rem] py-[1.5rem] flex justify-between align-middle h-[5rem] bg-[#F8F8F8] rounded-full outline-primary">
+            <h1 class="text-[1.35rem]">gardient.guru</h1>
+            <div class="w-[6.05rem] flex justify-between align-middle">
+                <a href="" class="text-[1.2rem] pt-[5px]"><i class="fa-regular fa-circle-question"></i></a>
+                <a href="https://youtu.be/dQw4w9WgXcQ?t=41" target="_blank" class="text-[1.2rem] pt-[5px]"><i class="fa-regular fa-heart"></i></a>
+            </div>
+        </div>
+        <!-- Navbar Ends -->
+
+        <!-- Section Starts -->
+        <div class="flex gap-[1.25rem] flex-wrap mx-[15rem] text-[1.375rem]">
+
+            <div class="pl-[1.25rem] w-[100%] text-[1.125rem] font-light" for="">Enter Hex Code</div>
+
+            <div class="py-[1.5rem] px-[1.62rem] w-[13.75rem] h-[5rem] rounded-[1rem] bg-[#F8F8F8] outline-primary">
+                <span class="h-[2rem] pr-[2rem]">#</span>
+                <input class="h-[2rem] w-[7.18rem] outline-none bg-transparent" type="text" name="" id="inp-hex" placeholder="000000">
+            </div>
+        
+            <button class="w-[8.75rem] rounded-[1rem] bg-[#F8F8F8] outline-primary" id="generate">Generate</button>
+        </div>
+        <!-- Section Ends -->
+
+        <!-- Section Starts -->
+        <div class="w-[48.75rem] flex gap-[1.25rem] flex-wrap justify-between mx-[15rem] my-[3rem]">
+            <div class="bg-[#F8F8F8] outline-primary rounded-[1rem] w-[100%] h-[10rem] relative" id="inp-color-display"><span class="absolute bottom-[0.5rem] left-[1rem]">#000000</span></div>
+            <div class="bg-[#F8F8F8] outline-primary rounded-[1rem] h-[7.5rem] w-[11.25rem] relative" id="out-color-display-1"><span class="absolute bottom-[0.5rem] left-[1rem]">#000000</span></div>
+            <div class="bg-[#F8F8F8] outline-primary rounded-[1rem] h-[7.5rem] w-[11.25rem] relative" id="out-color-display-2"><span class="absolute bottom-[0.5rem] left-[1rem]">#000000</span></div>
+            <div class="bg-[#F8F8F8] outline-primary rounded-[1rem] h-[7.5rem] w-[11.25rem] relative" id="out-color-display-3"><span class="absolute bottom-[0.5rem] left-[1rem]">#000000</span></div>
+            <div class="bg-[#F8F8F8] outline-primary rounded-[1rem] h-[7.5rem] w-[11.25rem] relative" id="out-color-display-4"><span class="absolute bottom-[0.5rem] left-[1rem]">#000000</span></div>
+        </div>
+        <!-- Section Ends -->
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
