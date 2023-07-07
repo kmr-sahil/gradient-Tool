@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kolor.tool</title>
+    <title>Gradient</title>
     <link rel="stylesheet" href="output.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,38 +12,38 @@
 </head>
 
 <body class="bg-gradient-to-r from-[#fde8f4] from-0% bg-[#F8F8F8] via-55% to-[#d6dcf5] to-100% overflow-x-hidden bg-fixed" > <!-- bg-gradient-to-r from-[#fde8f4] from-0% bg-[#F8F8F8] via-55% to-[#d6dcf5] to-100% -->
-    <div class=" ps-[0.938rem] pe-[0.938rem] mx-auto flex flex-col justify-center font-heebo font-light text-[#1E3163]">
+    <div class=" ps-[0.938rem] pe-[0.938rem] tablet:ps-[5rem] tablet:pe-[5rem] tabletlg:ps-[8rem] tabletlg:pe-[8rem] laptop:ps-[12rem] laptop:pe-[12rem] desktop:ps-[18rem] desktop:pe-[18rem] mx-auto flex flex-col justify-center font-heebo font-light text-[#1E3163]">
         <!-- Navbar Starts -->
-        <div class="mt-[1rem] mb-[2rem] px-[1.25rem] py-[0.8rem] flex justify-between  h-[3.125rem] bg-[#F8F8F8] rounded-full outline-primary">
+        <div class="mt-[1rem] tablet:mt-[2rem] mb-[2rem] px-[1.25rem] laptop:px-[2rem] py-[0.8rem] flex justify-between h-[3.125rem] bg-[#F8F8F8] rounded-full outline-primary">
             <h1 class="text-[1rem]">kolor.tool</h1>
-            <div class="w-[3.125rem] flex justify-between ">
-                <a href="" class="text-[1rem] "><i class="fa-regular fa-circle-question"></i></a>
-                <a href="https://youtu.be/dQw4w9WgXcQ?t=41" target="_blank" class="text-[1rem] "><i class="fa-regular fa-heart"></i></a>
+            <div class="w-[3.125rem] tabletlg:w-[4rem] flex justify-between ">
+                <a href="https://github.com/kmr-sahil/gradient-Tool/blob/main/README.md" target="_blank" class="text-[1rem] "><i class="fa-regular fa-circle-question"></i></a>
+                <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank" class="text-[1rem] "><i class="fa-solid fa-bolt"></i></a>
             </div>
         </div>
         <!-- Navbar Ends -->
 
         <!-- Section Starts -->
-        <div class="flex gap-[1rem] justify-between flex-wrap text-[1rem]">
+        <div class="tablet:ps-[10%] tablet:pe-[10%] flex gap-y-[0.8rem] gap-x-[1.25rem] tablet:gap-x-[2rem] tablet:gap-y-[1rem] tabletlg:w-[80%] laptop:w-[80%] desktop:w-[58%] justify-between flex-wrap text-[1rem]">
 
             <div class="pl-[1rem] w-[100%] text-[1rem] font-light" for="">Enter Hex Code</div>
 
-            <div class="flex justify-evenly items-center w-[46%] h-[3.125rem] rounded-[1rem] bg-[#F8F8F8] outline-primary">
+            <div class="flex flex-grow justify-evenly items-center w-[40%] h-[3.125rem] tabletlg:h-[4rem] rounded-[1rem] bg-[#F8F8F8] outline-primary">
                 <span class="w-[10%]">#</span>
                 <input class=" w-[70%] outline-none bg-transparent" type="text" name="" id="inp-hex" placeholder="000000">
             </div>
         
-            <button class="w-[46%] rounded-[1rem] bg-[#F8F8F8] outline-primary" id="generate">Generate</button>
+            <button class="w-[40%] tabletlg:w-[20%] flex-grow rounded-[1rem] h-[3.125rem] tabletlg:h-[4rem] bg-[#F8F8F8] outline-primary" id="generate">Generate</button>
         </div>
         <!-- Section Ends -->
 
         <!-- Section Starts -->
-        <div class="flex gap-[1.25rem] flex-wrap justify-between my-[3rem]">
+        <div class="tablet:ps-[10%] tablet:pe-[10%] flex gap-[1.25rem] tablet:gap-[2rem] flex-wrap justify-between my-[3rem]">
             <div class="bg-[#F8F8F8] outline-primary rounded-[1rem] basis-[100%] h-[10rem] relative" id="inp-color-display"><span class="absolute bottom-[0.5rem] left-[1rem]">#000000</span></div>
-            <div class="bg-[#F8F8F8] outline-primary rounded-[1rem] h-[5rem] relative basis-[46%]" id="out-color-display-1"><span class="absolute bottom-[0.5rem] left-[1rem]">#000000</span></div>
-            <div class="bg-[#F8F8F8] outline-primary rounded-[1rem] h-[5rem] relative basis-[46%]" id="out-color-display-2"><span class="absolute bottom-[0.5rem] left-[1rem]">#000000</span></div>
-            <div class="bg-[#F8F8F8] outline-primary rounded-[1rem] h-[5rem] relative basis-[46%]" id="out-color-display-3"><span class="absolute bottom-[0.5rem] left-[1rem]">#000000</span></div>
-            <div class="bg-[#F8F8F8] outline-primary rounded-[1rem] h-[5rem] relative basis-[46%]" id="out-color-display-4"><span class="absolute bottom-[0.5rem] left-[1rem]">#000000</span></div>
+            <div class="bg-[#F8F8F8] outline-primary rounded-[1rem] h-[5rem] relative basis-[40%] flex-grow desktop:basis-[15%]" id="out-color-display-1"><span class="absolute bottom-[0.5rem] left-[1rem]">#000000</span></div>
+            <div class="bg-[#F8F8F8] outline-primary rounded-[1rem] h-[5rem] relative basis-[40%] flex-grow desktop:basis-[15%]" id="out-color-display-2"><span class="absolute bottom-[0.5rem] left-[1rem]">#000000</span></div>
+            <div class="bg-[#F8F8F8] outline-primary rounded-[1rem] h-[5rem] relative basis-[40%] flex-grow desktop:basis-[15%]" id="out-color-display-3"><span class="absolute bottom-[0.5rem] left-[1rem]">#000000</span></div>
+            <div class="bg-[#F8F8F8] outline-primary rounded-[1rem] h-[5rem] relative basis-[40%] flex-grow desktop:basis-[15%]" id="out-color-display-4"><span class="absolute bottom-[0.5rem] left-[1rem]">#000000</span></div>
         </div>
         <!-- Section Ends -->
 
